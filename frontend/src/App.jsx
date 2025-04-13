@@ -1,16 +1,19 @@
-import './App.css'
-import Home from './components/Home';
-import Navbar from './components/shared/Navbar'
+import "./App.css";
+import Concept from "./components/Concept";
+import Home from "./components/Home";
+import Service from "./components/Service";
+
+
 
 function App() {
   return (
-    <div className="w-full flex flex-col items-center justify-center p-0">
-      <div className="fixed top-5 flex justify-center w-full z-50">
-        <Navbar />
-      </div>
-      <Home/>
-    </div> 
-  )
+    <>
+       {/* <Concept/> */}
+      <Home />
+      {/* <Service/> */}
+      
+    </>
+  );
 }
 
-export default App
+export default App;
